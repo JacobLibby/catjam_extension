@@ -1,0 +1,24 @@
+{
+    "name": "catJam",
+    "description": "he do be jammin",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+      "service_worker": "background.js"
+    },
+    "permissions": ["storage", "activeTab", "scripting"],
+    "action": {
+        "default_popup": "popup.html",
+        "action": "timing.js",
+        "default_icon": {
+            "16": "/images/catjam_16_2.png",
+            "48": "/images/catjam_48_2.png",
+            "128": "/images/catjam_128_2.png"
+          }
+      },
+      "icons": {
+        "16": "/images/catjam_16_1.png",
+        "48": "/images/catjam_48_1.png",
+        "128": "/images/catjam_128_1.png"
+      }
+  }
